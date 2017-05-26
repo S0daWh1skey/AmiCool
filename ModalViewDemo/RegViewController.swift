@@ -19,7 +19,10 @@ class RegViewController: UIViewController,UITextFieldDelegate {
         self.Password.isSecureTextEntry = true
         self.PasswordConfirm.isSecureTextEntry = true
         // Do any additional setup after loading the view.
-
+        let BackImageView = UIImageView(image: UIImage(named: "background.png"))
+        BackImageView.frame = self.view.frame
+        self.view.backgroundColor = UIColor.clear
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"background.png")!)
     }
     
     

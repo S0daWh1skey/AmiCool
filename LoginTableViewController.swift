@@ -20,6 +20,10 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        let BackImageView = UIImageView(image: UIImage(named: "background.png"))
+        BackImageView.frame = self.view.frame
+        self.tableView.backgroundView = BackImageView
+        self.tableView.backgroundColor = UIColor.clear
         //在通知中心注册通知，通知名为RegisterCompleteNotification,同时指定了自动回调方法regComplete(自定义)
         NotificationCenter.default.addObserver(self, selector: #selector(LoginTableViewController.regComplete(_:)), name: Notification.Name(rawValue:"RegisterCompleteNotification"), object: nil)
     }

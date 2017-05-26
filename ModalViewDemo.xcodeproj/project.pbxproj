@@ -13,6 +13,7 @@
 		36A74D861ED8059D009A939C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A74D851ED8059D009A939C /* Assets.xcassets */; };
 		36A74D891ED8059D009A939C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A74D871ED8059D009A939C /* LaunchScreen.storyboard */; };
 		36A74D911ED80AEA009A939C /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A74D901ED80AEA009A939C /* LoginTableViewController.swift */; };
+		36BA4C351ED831BD00A3959C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BA4C341ED831BD00A3959C /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36A74D881ED8059D009A939C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A74D8A1ED8059D009A939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36A74D901ED80AEA009A939C /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginTableViewController.swift; path = ../LoginTableViewController.swift; sourceTree = "<group>"; };
+		36BA4C341ED831BD00A3959C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ModalViewDemo/background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		36A74D721ED8059C009A939C = {
 			isa = PBXGroup;
 			children = (
+				36BA4C341ED831BD00A3959C /* background.png */,
 				36A74D7D1ED8059D009A939C /* ModalViewDemo */,
 				36A74D7C1ED8059D009A939C /* Products */,
 			);
@@ -129,6 +132,7 @@
 			files = (
 				36A74D891ED8059D009A939C /* LaunchScreen.storyboard in Resources */,
 				36A74D861ED8059D009A939C /* Assets.xcassets in Resources */,
+				36BA4C351ED831BD00A3959C /* background.png in Resources */,
 				36A74D841ED8059D009A939C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
