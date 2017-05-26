@@ -8,17 +8,27 @@
 
 import UIKit
 
-class LoginTableViewController: UITableViewController {
+class LoginTableViewController: UITableViewController,UITextFieldDelegate {
 
+    @IBOutlet weak var Username: UITextField!
+    @IBOutlet weak var Password: UITableViewCell!
+    @IBOutlet weak var LoginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        //在通知中心注册通知，通知名为RegisterCompleteNotification,同时指定了自动回调方法regComplete(自定义)
+        NotificationCenter.default.addObserver(self, selector: #selector(LoginTableViewController.regComplete(_:)), name: Notification.Name(rawValue:"RegisterCompleteNotification"), object: nil)
     }
+    //MARK:处理通知的方法，通知名为“RegisterCompleteNotification”
+    func regComplete(_ notification:Notification){
+        let data = notification.userInfo as NSDictionary?
+        self.Username.text = data?["userName"] as? String
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -40,5 +50,12 @@ class LoginTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    //MARK:文本框协议-按下键盘的回车键自动回调的方法
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool{
+        //通过撤销第一响应对象的方式 撤销键盘
+        self.Username.resignFirstResponder()
+        return true
+    }
+
 
 }

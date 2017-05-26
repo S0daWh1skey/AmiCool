@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368CE5161ED813CE0010CB94 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CE5151ED813CE0010CB94 /* RegViewController.swift */; };
 		36A74D7F1ED8059D009A939C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A74D7E1ED8059D009A939C /* AppDelegate.swift */; };
 		36A74D841ED8059D009A939C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A74D821ED8059D009A939C /* Main.storyboard */; };
 		36A74D861ED8059D009A939C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A74D851ED8059D009A939C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		368CE5151ED813CE0010CB94 /* RegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		36A74D7B1ED8059D009A939C /* ModalViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A74D7E1ED8059D009A939C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36A74D831ED8059D009A939C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				36A74D7E1ED8059D009A939C /* AppDelegate.swift */,
 				36A74D901ED80AEA009A939C /* LoginTableViewController.swift */,
 				36A74D821ED8059D009A939C /* Main.storyboard */,
+				368CE5151ED813CE0010CB94 /* RegViewController.swift */,
 				36A74D851ED8059D009A939C /* Assets.xcassets */,
 				36A74D871ED8059D009A939C /* LaunchScreen.storyboard */,
 				36A74D8A1ED8059D009A939C /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A74D7F1ED8059D009A939C /* AppDelegate.swift in Sources */,
+				368CE5161ED813CE0010CB94 /* RegViewController.swift in Sources */,
 				36A74D911ED80AEA009A939C /* LoginTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				36A74D8F1ED8059D009A939C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
