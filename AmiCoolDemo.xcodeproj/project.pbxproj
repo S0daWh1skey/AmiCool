@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D9D5421EDFDCCD0097F8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5411EDFDCCD0097F8AD /* AppDelegate.swift */; };
+		36D9D5441EDFDCCD0097F8AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5431EDFDCCD0097F8AD /* ViewController.swift */; };
+		36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D5481EDFDCCD0097F8AD /* Assets.xcassets */; };
+		36D9D54C1EDFDCCD0097F8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D54A1EDFDCCD0097F8AD /* LaunchScreen.storyboard */; };
+		36D9D55D1EDFDEAD0097F8AD /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D55C1EDFDEAD0097F8AD /* LoginTableViewController.swift */; };
+		36D9D5601EDFE3C10097F8AD /* LoginRegTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D55F1EDFE3C10097F8AD /* LoginRegTableViewCell.swift */; };
+		36D9D5621EDFE44D0097F8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D5611EDFE44D0097F8AD /* Main.storyboard */; };
+		36D9D5641EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5631EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift */; };
+		36D9D5671EDFFA340097F8AD /* LoginReturnJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5661EDFFA340097F8AD /* LoginReturnJson.swift */; };
+		36D9D5691EE005400097F8AD /* AMNetworkMngTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5681EE005400097F8AD /* AMNetworkMngTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36D9D53E1EDFDCCD0097F8AD /* AmiCoolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmiCoolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D9D5411EDFDCCD0097F8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AmiCoolDemo/AppDelegate.swift; sourceTree = "<group>"; };
+		36D9D5431EDFDCCD0097F8AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = AmiCoolDemo/ViewController.swift; sourceTree = "<group>"; };
+		36D9D5481EDFDCCD0097F8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AmiCoolDemo/Assets.xcassets; sourceTree = "<group>"; };
+		36D9D54B1EDFDCCD0097F8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36D9D54D1EDFDCCD0097F8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AmiCoolDemo/Info.plist; sourceTree = "<group>"; };
+		36D9D55C1EDFDEAD0097F8AD /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		36D9D55F1EDFE3C10097F8AD /* LoginRegTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegTableViewCell.swift; sourceTree = "<group>"; };
+		36D9D5611EDFE44D0097F8AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		36D9D5631EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsermanepwdTableViewCell.swift; sourceTree = "<group>"; };
+		36D9D5661EDFFA340097F8AD /* LoginReturnJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginReturnJson.swift; sourceTree = "<group>"; };
+		36D9D5681EE005400097F8AD /* AMNetworkMngTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMNetworkMngTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D9D53B1EDFDCCD0097F8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D9D5351EDFDCCD0097F8AD = {
+			isa = PBXGroup;
+			children = (
+				36D9D5401EDFDCCD0097F8AD /* AmiCoolDemo */,
+				36D9D53F1EDFDCCD0097F8AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36D9D53F1EDFDCCD0097F8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D53E1EDFDCCD0097F8AD /* AmiCoolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D9D5401EDFDCCD0097F8AD /* AmiCoolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D55B1EDFDE7A0097F8AD /* Login */,
+				36D9D55A1EDFDE6E0097F8AD /* Common */,
+				36D9D5551EDFDD110097F8AD /* MainUI */,
+				36D9D5591EDFDD680097F8AD /* Others */,
+			);
+			path = AmiCoolDemo;
+			sourceTree = "<group>";
+		};
+		36D9D5531EDFDD060097F8AD /* Article */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Article;
+			path = AmiCoolDemo;
+			sourceTree = "<group>";
+		};
+		36D9D5541EDFDD0F0097F8AD /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		36D9D5551EDFDD110097F8AD /* MainUI */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D5561EDFDD300097F8AD /* Courseware */,
+				36D9D5581EDFDD600097F8AD /* Case */,
+				36D9D5571EDFDD4A0097F8AD /* Me */,
+				36D9D5531EDFDD060097F8AD /* Article */,
+				36D9D5541EDFDD0F0097F8AD /* Video */,
+			);
+			name = MainUI;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		36D9D5561EDFDD300097F8AD /* Courseware */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Courseware;
+			sourceTree = "<group>";
+		};
+		36D9D5571EDFDD4A0097F8AD /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		36D9D5581EDFDD600097F8AD /* Case */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Case;
+			sourceTree = "<group>";
+		};
+		36D9D5591EDFDD680097F8AD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D5411EDFDCCD0097F8AD /* AppDelegate.swift */,
+				36D9D5431EDFDCCD0097F8AD /* ViewController.swift */,
+				36D9D5611EDFE44D0097F8AD /* Main.storyboard */,
+				36D9D5481EDFDCCD0097F8AD /* Assets.xcassets */,
+				36D9D54A1EDFDCCD0097F8AD /* LaunchScreen.storyboard */,
+				36D9D54D1EDFDCCD0097F8AD /* Info.plist */,
+			);
+			name = Others;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		36D9D55A1EDFDE6E0097F8AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D5681EE005400097F8AD /* AMNetworkMngTool.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		36D9D55B1EDFDE7A0097F8AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D55C1EDFDEAD0097F8AD /* LoginTableViewController.swift */,
+				36D9D5651EDFFA060097F8AD /* Model */,
+				36D9D55E1EDFE39A0097F8AD /* View */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		36D9D55E1EDFE39A0097F8AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D55F1EDFE3C10097F8AD /* LoginRegTableViewCell.swift */,
+				36D9D5631EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		36D9D5651EDFFA060097F8AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36D9D5661EDFFA340097F8AD /* LoginReturnJson.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D9D53D1EDFDCCD0097F8AD /* AmiCoolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D9D5501EDFDCCD0097F8AD /* Build configuration list for PBXNativeTarget "AmiCoolDemo" */;
+			buildPhases = (
+				36D9D53A1EDFDCCD0097F8AD /* Sources */,
+				36D9D53B1EDFDCCD0097F8AD /* Frameworks */,
+				36D9D53C1EDFDCCD0097F8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmiCoolDemo;
+			productName = AmiCoolDemo;
+			productReference = 36D9D53E1EDFDCCD0097F8AD /* AmiCoolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D9D5361EDFDCCD0097F8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Albert Sphepherd";
+				TargetAttributes = {
+					36D9D53D1EDFDCCD0097F8AD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CM5LZA8GXM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36D9D5391EDFDCCD0097F8AD /* Build configuration list for PBXProject "AmiCoolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D9D5351EDFDCCD0097F8AD;
+			productRefGroup = 36D9D53F1EDFDCCD0097F8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D9D53D1EDFDCCD0097F8AD /* AmiCoolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D9D53C1EDFDCCD0097F8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D9D54C1EDFDCCD0097F8AD /* LaunchScreen.storyboard in Resources */,
+				36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */,
+				36D9D5621EDFE44D0097F8AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D9D53A1EDFDCCD0097F8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D9D5601EDFE3C10097F8AD /* LoginRegTableViewCell.swift in Sources */,
+				36D9D5441EDFDCCD0097F8AD /* ViewController.swift in Sources */,
+				36D9D5421EDFDCCD0097F8AD /* AppDelegate.swift in Sources */,
+				36D9D55D1EDFDEAD0097F8AD /* LoginTableViewController.swift in Sources */,
+				36D9D5641EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift in Sources */,
+				36D9D5691EE005400097F8AD /* AMNetworkMngTool.swift in Sources */,
+				36D9D5671EDFFA340097F8AD /* LoginReturnJson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36D9D54A1EDFDCCD0097F8AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D9D54B1EDFDCCD0097F8AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = AmiCoolDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D9D54E1EDFDCCD0097F8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36D9D54F1EDFDCCD0097F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D9D5511EDFDCCD0097F8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CM5LZA8GXM;
+				INFOPLIST_FILE = AmiCoolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.com.edu.neusoft.AmiCoolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		36D9D5521EDFDCCD0097F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CM5LZA8GXM;
+				INFOPLIST_FILE = AmiCoolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.com.edu.neusoft.AmiCoolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D9D5391EDFDCCD0097F8AD /* Build configuration list for PBXProject "AmiCoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D9D54E1EDFDCCD0097F8AD /* Debug */,
+				36D9D54F1EDFDCCD0097F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D9D5501EDFDCCD0097F8AD /* Build configuration list for PBXNativeTarget "AmiCoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D9D5511EDFDCCD0097F8AD /* Debug */,
+				36D9D5521EDFDCCD0097F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D9D5361EDFDCCD0097F8AD /* Project object */;
+}

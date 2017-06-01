@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36A74D7A1ED8059D009A939C"
-               BuildableName = "ModalViewDemo.app"
-               BlueprintName = "ModalViewDemo"
-               ReferencedContainer = "container:ModalViewDemo.xcodeproj">
+               BlueprintIdentifier = "36D9D53D1EDFDCCD0097F8AD"
+               BuildableName = "AmiCoolDemo.app"
+               BlueprintName = "AmiCoolDemo"
+               ReferencedContainer = "container:AmiCoolDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36A74D7A1ED8059D009A939C"
-            BuildableName = "ModalViewDemo.app"
-            BlueprintName = "ModalViewDemo"
-            ReferencedContainer = "container:ModalViewDemo.xcodeproj">
+            BlueprintIdentifier = "36D9D53D1EDFDCCD0097F8AD"
+            BuildableName = "AmiCoolDemo.app"
+            BlueprintName = "AmiCoolDemo"
+            ReferencedContainer = "container:AmiCoolDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36A74D7A1ED8059D009A939C"
-            BuildableName = "ModalViewDemo.app"
-            BlueprintName = "ModalViewDemo"
-            ReferencedContainer = "container:ModalViewDemo.xcodeproj">
+            BlueprintIdentifier = "36D9D53D1EDFDCCD0097F8AD"
+            BuildableName = "AmiCoolDemo.app"
+            BlueprintName = "AmiCoolDemo"
+            ReferencedContainer = "container:AmiCoolDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36A74D7A1ED8059D009A939C"
-            BuildableName = "ModalViewDemo.app"
-            BlueprintName = "ModalViewDemo"
-            ReferencedContainer = "container:ModalViewDemo.xcodeproj">
+            BlueprintIdentifier = "36D9D53D1EDFDCCD0097F8AD"
+            BuildableName = "AmiCoolDemo.app"
+            BlueprintName = "AmiCoolDemo"
+            ReferencedContainer = "container:AmiCoolDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

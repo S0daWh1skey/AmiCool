@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ModalViewDemo
+//  AmiCoolDemo
 //
-//  Created by Albert Sphepherd on 2017/5/26.
+//  Created by Albert Sphepherd on 2017/6/1.
 //  Copyright © 2017年 Albert Sphepherd. All rights reserved.
 //
 

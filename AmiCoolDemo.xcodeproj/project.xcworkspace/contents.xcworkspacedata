@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ModalViewDemo.xcodeproj">
+      location = "self:AmiCoolDemo.xcodeproj">
    </FileRef>
 </Workspace>
