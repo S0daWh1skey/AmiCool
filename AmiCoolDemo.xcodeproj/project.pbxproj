@@ -12,11 +12,11 @@
 		36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D5481EDFDCCD0097F8AD /* Assets.xcassets */; };
 		36D9D54C1EDFDCCD0097F8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D54A1EDFDCCD0097F8AD /* LaunchScreen.storyboard */; };
 		36D9D55D1EDFDEAD0097F8AD /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D55C1EDFDEAD0097F8AD /* LoginTableViewController.swift */; };
-		36D9D5601EDFE3C10097F8AD /* LoginRegTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D55F1EDFE3C10097F8AD /* LoginRegTableViewCell.swift */; };
-		36D9D5621EDFE44D0097F8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D5611EDFE44D0097F8AD /* Main.storyboard */; };
-		36D9D5641EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5631EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift */; };
 		36D9D5671EDFFA340097F8AD /* LoginReturnJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5661EDFFA340097F8AD /* LoginReturnJson.swift */; };
 		36D9D5691EE005400097F8AD /* AMNetworkMngTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5681EE005400097F8AD /* AMNetworkMngTool.swift */; };
+		36D9D56D1EE175A50097F8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D56C1EE175A50097F8AD /* Main.storyboard */; };
+		36D9D5701EE176040097F8AD /* LoginRegTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D56E1EE176040097F8AD /* LoginRegTableViewCell.swift */; };
+		36D9D5711EE176040097F8AD /* UsermanepwdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D56F1EE176040097F8AD /* UsermanepwdTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		36D9D54B1EDFDCCD0097F8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D9D54D1EDFDCCD0097F8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AmiCoolDemo/Info.plist; sourceTree = "<group>"; };
 		36D9D55C1EDFDEAD0097F8AD /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
-		36D9D55F1EDFE3C10097F8AD /* LoginRegTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegTableViewCell.swift; sourceTree = "<group>"; };
-		36D9D5611EDFE44D0097F8AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		36D9D5631EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsermanepwdTableViewCell.swift; sourceTree = "<group>"; };
 		36D9D5661EDFFA340097F8AD /* LoginReturnJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginReturnJson.swift; sourceTree = "<group>"; };
 		36D9D5681EE005400097F8AD /* AMNetworkMngTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMNetworkMngTool.swift; sourceTree = "<group>"; };
+		36D9D56C1EE175A50097F8AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		36D9D56E1EE176040097F8AD /* LoginRegTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegTableViewCell.swift; sourceTree = "<group>"; };
+		36D9D56F1EE176040097F8AD /* UsermanepwdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsermanepwdTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 			children = (
 				36D9D5411EDFDCCD0097F8AD /* AppDelegate.swift */,
 				36D9D5431EDFDCCD0097F8AD /* ViewController.swift */,
-				36D9D5611EDFE44D0097F8AD /* Main.storyboard */,
+				36D9D56C1EE175A50097F8AD /* Main.storyboard */,
 				36D9D5481EDFDCCD0097F8AD /* Assets.xcassets */,
 				36D9D54A1EDFDCCD0097F8AD /* LaunchScreen.storyboard */,
 				36D9D54D1EDFDCCD0097F8AD /* Info.plist */,
@@ -156,8 +156,8 @@
 		36D9D55E1EDFE39A0097F8AD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				36D9D55F1EDFE3C10097F8AD /* LoginRegTableViewCell.swift */,
-				36D9D5631EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift */,
+				36D9D56E1EE176040097F8AD /* LoginRegTableViewCell.swift */,
+				36D9D56F1EE176040097F8AD /* UsermanepwdTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -230,9 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D9D56D1EE175A50097F8AD /* Main.storyboard in Resources */,
 				36D9D54C1EDFDCCD0097F8AD /* LaunchScreen.storyboard in Resources */,
 				36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */,
-				36D9D5621EDFE44D0097F8AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,11 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D9D5601EDFE3C10097F8AD /* LoginRegTableViewCell.swift in Sources */,
 				36D9D5441EDFDCCD0097F8AD /* ViewController.swift in Sources */,
 				36D9D5421EDFDCCD0097F8AD /* AppDelegate.swift in Sources */,
+				36D9D5711EE176040097F8AD /* UsermanepwdTableViewCell.swift in Sources */,
+				36D9D5701EE176040097F8AD /* LoginRegTableViewCell.swift in Sources */,
 				36D9D55D1EDFDEAD0097F8AD /* LoginTableViewController.swift in Sources */,
-				36D9D5641EDFF41A0097F8AD /* UsermanepwdTableViewCell.swift in Sources */,
 				36D9D5691EE005400097F8AD /* AMNetworkMngTool.swift in Sources */,
 				36D9D5671EDFFA340097F8AD /* LoginReturnJson.swift in Sources */,
 			);

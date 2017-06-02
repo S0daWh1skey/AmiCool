@@ -72,7 +72,10 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let backImageView = UIImageView(image: UIImage(named: "backgroundImage.JPG"))
+        backImageView.frame = self.view.frame
+        self.tableView.backgroundView = backImageView
+        self.tableView.backgroundColor = UIColor.clear
        
     }
 
