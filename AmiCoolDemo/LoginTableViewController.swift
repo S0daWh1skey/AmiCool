@@ -31,8 +31,8 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate{
             AMNetworkMngTool.shared.AMNetwork_Login(parameters as NSDictionary , block: { (flag) in
                 if flag == "1"{
                     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+0.5, execute:
-                        {  self.pompAlert(message: "登录成功")
-                            
+                        {  //self.pompAlert(message: "登录成功")
+                            UIApplication.shared.keyWindow?.rootViewController = MainTabBarController()
                     })
                 }
                 else{
