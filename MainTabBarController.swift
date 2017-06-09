@@ -19,13 +19,14 @@ class MainTabBarController: UITabBarController {
         let videoStoryboard = UIStoryboard(name: "Video", bundle: nil)
         let videoNavController = videoStoryboard.instantiateViewController(withIdentifier: "videoNav")
         let me = MeController()
-        self.viewControllers = [videoNavController, me]
+        let courseware = CoursewareController()
+        self.viewControllers = [videoNavController,courseware, me]
         // Set tabBar
         let tabBar = self.tabBar
         self.tabBar.frame = CGRect(x: tabBar.frame.minX, y: tabBar.frame.minY, width: tabBar.frame.width, height: 40)
         
-        let tabBarItemTitles:[String] = ["视频","我"]
-        let tabBarItemImages:[String] = ["video", "me"]
+        let tabBarItemTitles:[String] = ["视频","课程","我"]
+        let tabBarItemImages:[String] = ["video","tware","me"]
         var index = 0
         for item in self.tabBar.items!{
             //设置标题
