@@ -105,6 +105,16 @@ class VideoController: UICollectionViewController {
     }
 
     // MARK: UICollectionViewDelegate
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let videoStoryboard = UIStoryboard(name: "Video", bundle: nil)
+        let vd = videoStoryboard.instantiateViewController(withIdentifier: "videoDetail") as! VideoDetailController
+        //取模型
+        vd.videoModle = self.videoList[indexPath.row] as?
+        VideoReturnJson
+        self.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vd, animated: true)
+        self.hidesBottomBarWhenPushed = false
+    }
 
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
