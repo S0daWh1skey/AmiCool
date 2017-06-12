@@ -21,6 +21,7 @@
 		3635E6E61EEA4243006A4995 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635E6E51EEA4243006A4995 /* CourseCell.swift */; };
 		3635E6E81EEA4B0B006A4995 /* CousewareReturnJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635E6E71EEA4B0B006A4995 /* CousewareReturnJson.swift */; };
 		3635E6EE1EEA8258006A4995 /* CoursewareDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635E6ED1EEA8258006A4995 /* CoursewareDetailController.swift */; };
+		36623E4E1EEED34A000AF79F /* me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36623E4D1EEED34A000AF79F /* me.storyboard */; };
 		3672705E1EE5244500B92E36 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672705D1EE5244500B92E36 /* MainTabBarController.swift */; };
 		367270621EE524B700B92E36 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367270611EE524B700B92E36 /* MeController.swift */; };
 		367270641EE52A3300B92E36 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 367270631EE52A3300B92E36 /* images */; };
@@ -55,6 +56,7 @@
 		3635E6E51EEA4243006A4995 /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		3635E6E71EEA4B0B006A4995 /* CousewareReturnJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CousewareReturnJson.swift; sourceTree = "<group>"; };
 		3635E6ED1EEA8258006A4995 /* CoursewareDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursewareDetailController.swift; sourceTree = "<group>"; };
+		36623E4D1EEED34A000AF79F /* me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = me.storyboard; sourceTree = "<group>"; };
 		3672705D1EE5244500B92E36 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		367270611EE524B700B92E36 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
 		367270631EE52A3300B92E36 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				367270611EE524B700B92E36 /* MeController.swift */,
+				36623E4D1EEED34A000AF79F /* me.storyboard */,
 			);
 			name = Me;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				36D9D54C1EDFDCCD0097F8AD /* LaunchScreen.storyboard in Resources */,
 				36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */,
 				363217401EEE60CB00EB9F9A /* Storyboard.storyboard in Resources */,
+				36623E4E1EEED34A000AF79F /* me.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

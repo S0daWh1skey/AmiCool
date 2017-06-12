@@ -12,7 +12,7 @@ class MeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.blue
+        //self.view.backgroundColor = UIColor.blue
         // Do any additional setup after loading the view.
     }
 
