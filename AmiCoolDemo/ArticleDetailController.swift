@@ -1,26 +1,26 @@
 //
-//  CoursewareDetailController.swift
+//  ArticleDetailController.swift
 //  AmiCoolDemo
 //
-//  Created by Albert Sphepherd on 2017/6/9.
+//  Created by Albert Sphepherd on 2017/6/12.
 //  Copyright © 2017年 Albert Sphepherd. All rights reserved.
 //
 
 import UIKit
 
-class CoursewareDetailController: UIViewController {
+class ArticleDetailController: UIViewController {
     
-    var coursewareModel:CoursewareReturnJson!
+    var articleModel:ArticleReturnJson!
     
-    var scrollView:pdfScrollView!
+    var textView:UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "课件详情"
+        self.title = "文章详情"
         
         // Do any additional setup after loading the view.
-        pdfConfiguration()
+        textConfiguration()
         
         let bt = UIButton(frame: CGRect(x: 0, y: 0, width: 28, height: 28))
         bt.setImage(UIImage(named:"images/back.png"), for: .normal)
@@ -34,21 +34,29 @@ class CoursewareDetailController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func pdfConfiguration(){
+    func textConfiguration(){
         self.view.backgroundColor = UIColor(red: 248/255, green: 250/255, blue: 254/255, alpha: 1)
         self.automaticallyAdjustsScrollViewInsets = false
         
         //let pdfUrlPre = "http://amicool.neusoft.edu.cn/Uploads/"
-        let url = URL(string: coursewareModel.pdfattach!)
+        //let url = URL(string: coursewareModel.pdfattach!)
         
-        let pdf = CGPDFDocument.init(url! as CFURL)
+        //let pdf = CGPDFDocument.init(url! as CFURL)
         
-        scrollView = pdfScrollView(frame: view.frame)
-        scrollView.backgroundColor = UIColor.lightGray
-        scrollView.PDF = pdf!
-        scrollView.initialize()
+        //scrollView = pdfScrollView(frame: view.frame)
+        //scrollView.backgroundColor = UIColor.lightGray
+        //scrollView.PDF = pdf!
+        //scrollView.initialize()
         //scrollView.pdfScrollviewDelegate = self
-        view.addSubview(scrollView)
+        textView = UITextView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        textView.backgroundColor = UIColor.white
+        
+        let htmlStr = "<head><style>img{max-width:\(view.bounds.width)px !important;}</style></head>" + (articleModel?.content)!
+        let data = htmlStr.data(using: String.Encoding.unicode)
+        let attrstr = try? NSAttributedString(data: data!, options: [NSDocumentTypeDocumentAttribute:NSHTMLTextDocumentType], documentAttributes: nil)
+        textView.attributedText = attrstr
+        
+        view.addSubview(textView)
     }
     
     func back(){

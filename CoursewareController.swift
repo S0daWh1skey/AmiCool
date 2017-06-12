@@ -124,6 +124,7 @@ class CoursewareController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let detailController = CoursewareDetailController()
         detailController.coursewareModel = self.courseList[indexPath.row] as!CoursewareReturnJson
+        //let model = self.courseList[indexPath.row] as! CoursewareReturnJson
         self.hidesBottomBarWhenPushed = true
         _ = navigationController?.pushViewController(detailController, animated: true)
         self.hidesBottomBarWhenPushed = false

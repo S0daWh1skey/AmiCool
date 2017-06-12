@@ -17,7 +17,7 @@ class CoursewareReturnJson: NSObject {
     var pdfattach:String?  //课件地址
     var update_time:String?  //更新时间
 
-    static let pdfUrlPre = "http//amicool.neusoft.edu.cn/Uploads/"
+    static let pdfUrlPre = "http://amicool.neusoft.edu.cn/Uploads/"
     
     class func coursewareListModelWithDict(dict:NSDictionary?)->CoursewareReturnJson?{
         if(dict == nil){

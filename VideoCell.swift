@@ -16,10 +16,10 @@ class VideoCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = CGRect(x: 5, y: (UIScreen.main.bounds.width-40)/2*0.618-15, width: self.bounds.width, height: 30)
-        gradientLayer.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
-        self.layer.addSublayer(gradientLayer)
+        //let gradientLayer = CAGradientLayer()
+       // gradientLayer.frame = CGRect(x: 5, y: (UIScreen.main.bounds.width-40)/2*0.618-15, width: self.bounds.width, height: 30)
+       // gradientLayer.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
+       // self.layer.addSublayer(gradientLayer)
         
     }
     
