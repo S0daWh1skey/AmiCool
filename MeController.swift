@@ -9,8 +9,13 @@
 import UIKit
 
 class MeController: UIViewController {
-    let parameters = ["SessionID":AMNetworkMngTool.loginReturnModel?.sessionid!]
+    let parameters = ["SessionID":AMNetworkMngTool.loginReturnModel?.sessionid]
     //let loginNav = UINavigationController(rootViewController: LoginTableViewController())
+    @IBOutlet weak var id: UILabel!
+    @IBOutlet weak var realname: UILabel!
+    @IBOutlet weak var username: UILabel!
+    @IBOutlet weak var rolename: UILabel!
+    @IBOutlet weak var sex: UILabel!
     @IBAction func Loginout(_ sender: Any) {
         //request
         AMNetworkMngTool.shared.AMNetwork_Loginout(parameters as NSDictionary , block: { (flag) in
@@ -34,7 +39,12 @@ class MeController: UIViewController {
         super.viewDidLoad()
         //self.view.backgroundColor = UIColor.blue
         // Do any additional setup after loading the view.
-    }
+        id.text = AMNetworkMngTool.loginReturnModel?.id
+        realname.text = AMNetworkMngTool.loginReturnModel?.realname
+        username.text = AMNetworkMngTool.loginReturnModel?.username
+        rolename.text = AMNetworkMngTool.loginReturnModel?.rolename
+        sex.text = AMNetworkMngTool.loginReturnModel?.sex
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
