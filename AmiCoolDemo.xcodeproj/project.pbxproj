@@ -137,6 +137,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		369A465F1EF120460019CBEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		36D9D5351EDFDCCD0097F8AD = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +220,7 @@
 			children = (
 				367270611EE524B700B92E36 /* MeController.swift */,
 				36623E4D1EEED34A000AF79F /* me.storyboard */,
+				369A465F1EF120460019CBEF /* Model */,
 			);
 			name = Me;
 			sourceTree = "<group>";
