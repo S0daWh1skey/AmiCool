@@ -2,7 +2,7 @@
 //  MeController.swift
 //  AmiCoolDemo
 //
-//  Created by Albert Sphepherd on 2017/6/5.
+//  Created by Albert Sphepherd on 2017/6/15.
 //  Copyright © 2017年 Albert Sphepherd. All rights reserved.
 //
 
@@ -10,13 +10,13 @@ import UIKit
 
 class MeController: UIViewController {
     let parameters = ["SessionID":AMNetworkMngTool.loginReturnModel?.sessionid]
-    //let loginNav = UINavigationController(rootViewController: LoginTableViewController())
-    @IBOutlet weak var id: UILabel!
+    @IBOutlet weak var loginout: UIButton!
+    @IBOutlet weak var Navbar: UINavigationBar!
+    
+    @IBOutlet weak var rolename: UILabel!
     @IBOutlet weak var realname: UILabel!
     @IBOutlet weak var username: UILabel!
-    @IBOutlet weak var rolename: UILabel!
-    @IBOutlet weak var sex: UILabel!
-    @IBAction func Loginout(_ sender: Any) {
+    @IBAction func Login_out(_ sender: Any) {
         //request
         AMNetworkMngTool.shared.AMNetwork_Loginout(parameters as NSDictionary , block: { (flag) in
             if flag == "1"{
@@ -33,18 +33,24 @@ class MeController: UIViewController {
             }
             
         })
-    }
+        
 
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.view.backgroundColor = UIColor.blue
+
+        self.Navbar.barTintColor = UIColor(colorLiteralRed: 20/255.0, green: 155/255.0, blue: 1.0, alpha: 1.0)
+        self.Navbar.titleTextAttributes =
+            [NSForegroundColorAttributeName: UIColor.white]
+        self.title = "我"
+        loginout.backgroundColor = UIColor.blue
+        self.loginout.layer.cornerRadius = 8.0
+        self.rolename.text = AMNetworkMngTool.loginReturnModel?.rolename
+        self.realname.text = AMNetworkMngTool.loginReturnModel?.realname
+        self.username.text = AMNetworkMngTool.loginReturnModel?.username
         // Do any additional setup after loading the view.
-        id.text = AMNetworkMngTool.loginReturnModel?.id
-        realname.text = AMNetworkMngTool.loginReturnModel?.realname
-        username.text = AMNetworkMngTool.loginReturnModel?.username
-        rolename.text = AMNetworkMngTool.loginReturnModel?.rolename
-        sex.text = AMNetworkMngTool.loginReturnModel?.sex
-        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -56,6 +62,8 @@ class MeController: UIViewController {
         alert.addAction(UIAlertAction(title: "确定", style: .cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
+
+    
 
     /*
     // MARK: - Navigation
