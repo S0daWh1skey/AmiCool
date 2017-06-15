@@ -22,7 +22,7 @@ class MainTabBarController: UITabBarController {
         let me = meStoryBoard.instantiateViewController(withIdentifier: "Me")
         let coursewareNav = UINavigationController(rootViewController: CoursewareController())
         let articleNav = UINavigationController(rootViewController: articleController())
-        let Case = caseController()
+        let Case = UINavigationController(rootViewController: caseController())
         self.viewControllers = [videoNavController,coursewareNav,articleNav,Case,me]
         // Set tabBar
         let tabBar = self.tabBar

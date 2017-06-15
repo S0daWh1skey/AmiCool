@@ -81,7 +81,6 @@ class pdfScrollView: UIScrollView ,UIScrollViewDelegate{
 //    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
 //        pdfScrollviewDelegate.showBarview()
 //    }
-    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

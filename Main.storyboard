@@ -14,7 +14,7 @@
         <!--登录-->
         <scene sceneID="Y46-uj-2ZP">
             <objects>
-                <tableViewController storyboardIdentifier="LoginNav" id="BYd-9Q-9jg" customClass="LoginTableViewController" customModule="AmiCoolDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="BYd-9Q-9jg" customClass="LoginTableViewController" customModule="AmiCoolDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="zP8-SZ-ru5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,11 +26,11 @@
                                         <rect key="frame" x="0.0" y="35" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Irq-sL-fsl" id="w9B-YS-RE0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户名" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="bys-Rh-Ndd">
-                                                    <rect key="frame" x="13" y="13" width="349" height="33.5"/>
+                                                    <rect key="frame" x="13" y="13" width="349" height="34"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" returnKeyType="next"/>
@@ -51,11 +51,11 @@
                                         <rect key="frame" x="0.0" y="95" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0uM-ZC-iHq" id="2yQ-o1-d7C">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uvB-yh-r6p">
-                                                    <rect key="frame" x="13" y="13" width="349" height="33.5"/>
+                                                    <rect key="frame" x="13" y="13" width="349" height="34"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -80,11 +80,11 @@
                                         <rect key="frame" x="0.0" y="191" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nJu-pp-T7S" id="AZk-sP-7YG">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WiR-XS-BNU">
-                                                    <rect key="frame" x="10" y="5" width="150" height="49.5"/>
+                                                    <rect key="frame" x="10" y="5" width="150" height="50"/>
                                                     <color key="backgroundColor" red="0.084987180713651966" green="0.89624345275440986" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                     <state key="normal" title="注册">
@@ -93,7 +93,7 @@
                                                     </state>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKH-Eb-Hfj">
-                                                    <rect key="frame" x="215" y="5" width="150" height="49.5"/>
+                                                    <rect key="frame" x="215" y="5" width="150" height="50"/>
                                                     <color key="backgroundColor" red="0.084987180709999999" green="0.89624345279999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                     <state key="normal" title="登录">
@@ -142,7 +142,7 @@
         <!--Navigation Controller-->
         <scene sceneID="hR2-ZG-NRZ">
             <objects>
-                <navigationController id="wsr-XL-DpT" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNav" id="wsr-XL-DpT" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vz7-WX-gkW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

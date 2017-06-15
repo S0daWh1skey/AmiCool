@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3632173C1EEE5FEF00EB9F9A /* caseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632173B1EEE5FEF00EB9F9A /* caseController.swift */; };
-		363217401EEE60CB00EB9F9A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3632173F1EEE60CB00EB9F9A /* Storyboard.storyboard */; };
 		363217461EEE7D1400EB9F9A /* articleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363217451EEE7D1400EB9F9A /* articleController.swift */; };
 		363217481EEE7EFA00EB9F9A /* ArticleReturnJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363217471EEE7EFA00EB9F9A /* ArticleReturnJson.swift */; };
 		3632174A1EEE81D400EB9F9A /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363217491EEE81D400EB9F9A /* ArticleCell.swift */; };
@@ -29,6 +27,10 @@
 		3672706D1EE5402100B92E36 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672706C1EE5402100B92E36 /* VideoCell.swift */; };
 		367270701EE5469600B92E36 /* VideoReturnJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672706F1EE5469600B92E36 /* VideoReturnJson.swift */; };
 		3674AFA41EF23BCC00318ED0 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3674AFA31EF23BCC00318ED0 /* MeController.swift */; };
+		3674AFA81EF2650B00318ED0 /* CaseReturnJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3674AFA71EF2650B00318ED0 /* CaseReturnJson.swift */; };
+		3674AFAA1EF265AD00318ED0 /* CaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3674AFA91EF265AD00318ED0 /* CaseController.swift */; };
+		3674AFAC1EF2683300318ED0 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3674AFAB1EF2683300318ED0 /* CaseCell.swift */; };
+		3674AFAE1EF268DE00318ED0 /* CaseDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3674AFAD1EF268DE00318ED0 /* CaseDetailController.swift */; };
 		36D9D5421EDFDCCD0097F8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5411EDFDCCD0097F8AD /* AppDelegate.swift */; };
 		36D9D5441EDFDCCD0097F8AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9D5431EDFDCCD0097F8AD /* ViewController.swift */; };
 		36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D9D5481EDFDCCD0097F8AD /* Assets.xcassets */; };
@@ -42,8 +44,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3632173B1EEE5FEF00EB9F9A /* caseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caseController.swift; sourceTree = "<group>"; };
-		3632173F1EEE60CB00EB9F9A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		363217451EEE7D1400EB9F9A /* articleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = articleController.swift; sourceTree = "<group>"; };
 		363217471EEE7EFA00EB9F9A /* ArticleReturnJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleReturnJson.swift; sourceTree = "<group>"; };
 		363217491EEE81D400EB9F9A /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
@@ -64,6 +64,10 @@
 		3672706C1EE5402100B92E36 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		3672706F1EE5469600B92E36 /* VideoReturnJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoReturnJson.swift; sourceTree = "<group>"; };
 		3674AFA31EF23BCC00318ED0 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		3674AFA71EF2650B00318ED0 /* CaseReturnJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseReturnJson.swift; sourceTree = "<group>"; };
+		3674AFA91EF265AD00318ED0 /* CaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseController.swift; sourceTree = "<group>"; };
+		3674AFAB1EF2683300318ED0 /* CaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseCell.swift; sourceTree = "<group>"; };
+		3674AFAD1EF268DE00318ED0 /* CaseDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseDetailController.swift; sourceTree = "<group>"; };
 		36D9D53E1EDFDCCD0097F8AD /* AmiCoolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmiCoolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D9D5411EDFDCCD0097F8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AmiCoolDemo/AppDelegate.swift; sourceTree = "<group>"; };
 		36D9D5431EDFDCCD0097F8AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = AmiCoolDemo/ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +141,22 @@
 			isa = PBXGroup;
 			children = (
 				3672706F1EE5469600B92E36 /* VideoReturnJson.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3674AFA51EF2633700318ED0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3674AFAB1EF2683300318ED0 /* CaseCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3674AFA61EF2633F00318ED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3674AFA71EF2650B00318ED0 /* CaseReturnJson.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -236,8 +256,10 @@
 		36D9D5581EDFDD600097F8AD /* Case */ = {
 			isa = PBXGroup;
 			children = (
-				3632173B1EEE5FEF00EB9F9A /* caseController.swift */,
-				3632173F1EEE60CB00EB9F9A /* Storyboard.storyboard */,
+				3674AFA91EF265AD00318ED0 /* CaseController.swift */,
+				3674AFAD1EF268DE00318ED0 /* CaseDetailController.swift */,
+				3674AFA61EF2633F00318ED0 /* Model */,
+				3674AFA51EF2633700318ED0 /* View */,
 			);
 			name = Case;
 			sourceTree = "<group>";
@@ -357,7 +379,6 @@
 				36D9D56D1EE175A50097F8AD /* Main.storyboard in Resources */,
 				36D9D54C1EDFDCCD0097F8AD /* LaunchScreen.storyboard in Resources */,
 				36D9D5491EDFDCCD0097F8AD /* Assets.xcassets in Resources */,
-				363217401EEE60CB00EB9F9A /* Storyboard.storyboard in Resources */,
 				36623E4E1EEED34A000AF79F /* me.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,16 +396,18 @@
 				3635E6E11EEA3FBA006A4995 /* CoursewareController.swift in Sources */,
 				363217461EEE7D1400EB9F9A /* articleController.swift in Sources */,
 				3672705E1EE5244500B92E36 /* MainTabBarController.swift in Sources */,
-				3632173C1EEE5FEF00EB9F9A /* caseController.swift in Sources */,
 				3674AFA41EF23BCC00318ED0 /* MeController.swift in Sources */,
 				36D9D5711EE176040097F8AD /* UsermanepwdTableViewCell.swift in Sources */,
+				3674AFAE1EF268DE00318ED0 /* CaseDetailController.swift in Sources */,
 				3632174A1EEE81D400EB9F9A /* ArticleCell.swift in Sources */,
 				3635E6D91EEA37C2006A4995 /* VideoDetailController.swift in Sources */,
 				367270681EE5306300B92E36 /* VideoController.swift in Sources */,
 				367270701EE5469600B92E36 /* VideoReturnJson.swift in Sources */,
 				3672706D1EE5402100B92E36 /* VideoCell.swift in Sources */,
 				363217481EEE7EFA00EB9F9A /* ArticleReturnJson.swift in Sources */,
+				3674AFA81EF2650B00318ED0 /* CaseReturnJson.swift in Sources */,
 				36D9D5701EE176040097F8AD /* LoginRegTableViewCell.swift in Sources */,
+				3674AFAC1EF2683300318ED0 /* CaseCell.swift in Sources */,
 				36D9D55D1EDFDEAD0097F8AD /* LoginTableViewController.swift in Sources */,
 				3635E6EE1EEA8258006A4995 /* CoursewareDetailController.swift in Sources */,
 				3635E6DF1EEA3D88006A4995 /* PdfView.swift in Sources */,
@@ -394,6 +417,7 @@
 				36D9D5691EE005400097F8AD /* AMNetworkMngTool.swift in Sources */,
 				36D9D5671EDFFA340097F8AD /* LoginReturnJson.swift in Sources */,
 				3632174C1EEE863C00EB9F9A /* ArticleDetailController.swift in Sources */,
+				3674AFAA1EF265AD00318ED0 /* CaseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,9 @@ class CoursewareController: UITableViewController {
     
     var courseList:[AnyObject]!
     
+    var currentIsInBottom = false
     
+    var pages = 1
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +30,11 @@ class CoursewareController: UITableViewController {
         self.tableView.register(CourseCell.self, forCellReuseIdentifier: "courseCell")
         
         getCoursewareList()
+        
+        if currentIsInBottom == true{
+            pages+=1
+        }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -43,7 +50,7 @@ class CoursewareController: UITableViewController {
     func getCoursewareList(){
         let paremeters:NSDictionary = ["SessionID":AMNetworkMngTool.loginReturnModel!.sessionid!,
                                        "mod":"tware",
-                                       "page":"1"]
+                                       "page":"\(pages)"]
         AMNetworkMngTool.shared.AMNetwork_GetList(paremeters){ (list) in
             DispatchQueue.main.async {
                 if list != nil{
@@ -138,9 +145,6 @@ class CoursewareController: UITableViewController {
 //        self.hidesBottomBarWhenPushed = false
 
     }
-    
-    
-    
 
     /*
     // Override to support conditional editing of the table view.
